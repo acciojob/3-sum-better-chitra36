@@ -1,4 +1,4 @@
-var threeSumClosest = function (nums, target) {
+var threeSum = function (nums, target) {
     // Sort the array
     nums.sort((a, b) => a - b);
     // Length of the array
