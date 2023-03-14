@@ -1,6 +1,6 @@
-function threeSum(arr, target) {
-// write your code here
-	nums.sort((a, b) => a - b);
+var threeSumClosest = function (nums, target) {
+    // Sort the array
+    nums.sort((a, b) => a - b);
     // Length of the array
     const n = nums.length;
     // Result
@@ -24,6 +24,4 @@ function threeSum(arr, target) {
         }
     }
     return closest;
-  
 };
-
